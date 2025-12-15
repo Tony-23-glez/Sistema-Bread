@@ -32,6 +32,10 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
 .vercel
@@ -39,3 +43,43 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# npm
+package-lock.json
+
+# Optional: si usas otros package managers
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
